@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 10px;
+}
+#navbar{
+    background: rgba(154, 154, 154, 0.64);
+}
+#logo img{
+    border-radius: 10px;
+    width: 180px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 80px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: black;
+    border-radius: 5px;
+    color: wheat;
+}
+#navbar form button{
+    background: black;
+    color: wheat;
+    border: 1px solid wheat;
+}
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgba(0,0,0,0.3)),url(./pexels-valeria-boltneva-1338587.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+    
+}
+#home .content h3{
+    font-size: 50px;
+    color: wheat;
+}
+#home .content p{
+    font-size: 10px;
+    color: wheat;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transform: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    background: black;
+    color: wheat;
+    width: 200px;
+}
+#btn a:hover{
+    background: black;
+    color: wheat;
+    width: 200px;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .container{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: wheat;
+}
+#about .card{
+    border-radius: 10px;
+}
+#about p{
+    width: 150%;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: black;
+    color: wheat;
+    width: 200px;
+}
+@media screen and (max-width:982){
+    #about p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:766px){
+    #about p{
+        font-size: 15px;
+        width: 100%;
+    }
+    #about{
+        height: 120vh;
+    } 
+    #top-cards{
+        margin-top:80px;
+    }
+}
+#top-card{
+    width: 100%;
+    height: 60vh;
+    background: white;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: gray;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards:hover{
+    transform: translateY(-10px);
+}
+#gallery{
+    width: 100%;
+}
+#gallery a{
+    background-color: rosybrown;
+    padding: 15px;
+    color: beige;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.heading5{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gallery .card{
+    border-radius: 10px;
+    cursor: pointer;
+}
+#gallery .card img{
+    border-radius: 10px;
+}
+#gallery .card img:hover{
+    transform: scale(1.1);
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg,white 80%,wheat 20%);
+    border-radius: 10px;
+}
+.heading6{
+    font-size: 30px;
+}
+.heading6 span{
+    color: wheat;
+}
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: wheat;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid wheat;
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: wheat;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 56vh;
+    background:black;
+    margin-top: 78px
+}
+#contact h1{
+    color: wheat;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: wheat;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+@media screen and(max-width:766px) {
+    #contact.container{
+        background-color: white;
+    }
+    #col{
+        width: 100%;
+        background: wheat;
+    }
+    #contact{
+        height: 150vh;
+    }
+    
+}
+@media screen and(max-width:400px) {
+    #contact input{
+        width: 250px;
+    }
+    
+}
+#footer{
+    width: 100%;
+    background-color: wheat;
+    margin-top: 50px;
+}
+.footer-logo img{
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}

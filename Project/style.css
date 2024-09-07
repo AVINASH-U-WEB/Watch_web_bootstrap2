@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    border: none! important;
+}
+.card-title:hover{
+    color: tomato! important;
+    cursor:pointer !important;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 10px;
+}
+#navbar{
+    background: rgba(35, 35, 35, 0.64);
+}
+#logo img{
+    border-radius: 10px;
+    width: 180px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 80px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: black;
+    border-radius: 5px;
+    color: wheat;
+}
+#navbar form button{
+    background: black;
+    color: wheat;
+    border: 1px solid wheat;
+}
+#blogs .heading7{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#blogs .heading7 span{
+    color: gray;
+}
+#blogs .container{
+    margin-top: 60px;
+}
+#blogs h5{
+    color: gray;
+}
+#blog-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: wheat;
+    background: black;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: wheat;
+    margin-top: 50px;
+}
+.footer-logo img{
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
